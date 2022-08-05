@@ -1,0 +1,17 @@
+let list = [];
+list.push('Milk', 'Bread', 'Apples');
+console.log(list);
+list.splice(list.indexOf('Bread'), 1, 'Bananas', 'Eggs');
+console.log(list);
+console.log(list.pop());
+console.log(list);
+list.sort();
+console.log(list);
+console.log(list.indexOf('Milk'));
+list.splice(list.indexOf('Bananas') + 1, 0, 'Carrots', 'Lettuce');
+console.log(list);
+let drinks = ['Juice', 'Pop'];
+let newList = list.concat(drinks, drinks);
+console.log(newList);
+console.log(newList.lastIndexOf('Pop'));
+console.log(newList);
